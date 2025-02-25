@@ -27,17 +27,16 @@ const Blog = () => {
         <div className="BlogEmpty"></div>
       </div>
       <div className="CardBody">
-        {cardData.map(()=>( 
-        <div className="card">
-          <div className="imgHolder">
-            <img src="" alt="image" />
+        {cardData.map(() => (
+          <div className="card">
+            <div className="imgHolder">
+              <img src="" alt="image" />
+            </div>
+            <div className="title"></div>
+            <div className="content"></div>
+            <div className="date"></div>
           </div>
-          <div className="title"></div>
-          <div className="content"></div>
-          <div className="date"></div>
-        </div>
         ))}
-
       </div>
     </>
   );
